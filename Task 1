@@ -1,0 +1,14 @@
+Task 1. Cybersecurity Lab Setup
+1.Download oracle vmbox
+2.Download Kali Linux ISO or ovm file
+3.Open VirtualBox, click "New," name your VM, choose type "Linux," version "Debian."
+4.Assign Memory:
+Allocate at least 2048 MB of RAM.
+5.Create a Virtual Hard Disk:
+Choose VDI, dynamically allocated, and allocate at least 20 GB.
+6.Mount Kali Linux ISO:
+In VM settings, under "Storage," 
+7.Install Kali Linux
+8.Complete Installation
+
+Set up root and user accounts, install GRUB bootloader.
