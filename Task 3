@@ -1,0 +1,10 @@
+Task 3. Password Cracking
+Using tool John the Ripper for cracking password.
+Command for cracking the password with the use of John the ripper tool are:-
+
+apt-get install John  #installing the tool
+cd Desktop/  #go to the path in which you have saved your file
+zip2john vib.zip  #vib.zip is a file which we need to crack the password
+zip2john vib.zip > password.txt  #password.txt is a file in which the password will be save in hash form
+cat password.txt  
+john --format=zip password.txt 
